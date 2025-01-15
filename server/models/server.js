@@ -29,7 +29,7 @@ class Server {
     };
 
     this.app = express();
-    this.port = process.env.PORT || 1082; // HTTP port
+    this.port = process.env.PORT || 1080; // HTTP port
     this.httpsPort = process.env.HTTPS_PORT || 8080; // HTTPS port
     this.sslOptions = sslOptions;
 
